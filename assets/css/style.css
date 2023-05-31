@@ -1,0 +1,228 @@
+* {
+    padding: 0rem;
+    margin: 0rem;
+    color: #fff;
+}
+
+html {
+    background-color: #000;
+    color: #fff;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 1.5rem;
+}
+
+header {
+    padding: 0rem 0rem 0rem 2rem;
+    max-width: 120rem;
+    margin: 0rem auto;
+    color: #000;
+}
+
+section {
+    padding: 4.5rem;
+    max-width: 120rem;
+    margin: 0rem auto;
+    color: #000;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4.5rem;
+    max-width: 120rem;
+    margin: 0rem auto;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.header-logo {
+    height: 10rem;
+    width: auto;
+    border-radius: 0%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    font-size: 1.5rem;
+}
+
+header nav h2 {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #000;
+    text-transform: uppercase;
+}
+
+header nav h2:hover {
+    border-bottom: 1px solid #fff
+}
+
+.nav_notebook {
+    border-bottom: 5px solid #006B9D;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+.nav_notebook:hover {
+    border-bottom: 7px solid #006B9D;
+    color: #777777;
+}
+
+header .nav_desktop {
+    border-bottom: 5px solid #00B1EB;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+header .nav_desktop:hover {
+    border-bottom: 7px solid #00B1EB;
+    color: #777777;
+}
+
+header .nav_monitor {
+    border-bottom: 5px solid #63BCBE;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+header .nav_monitor:hover {
+    border-bottom: 7px solid #63BCBE;
+    color: #777777;
+}
+
+header .nav_acessorios {
+    border-bottom: 5px solid #9CAFB9;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+header .nav_acessorios:hover {
+    border-bottom: 7px solid #9CAFB9;
+    color: #777777;
+}
+
+header .nav_informacoes {
+    border-bottom: 5px solid #D83768;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+header .nav_informacoes:hover {
+    border-bottom: 7px solid #D83768;
+    color: #777777;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
+    transition: ease-in-out 0.2s;
+}
+
+.notebook-card .card:hover {
+    background-color: #006B9D;
+    transition: ease 0.10;
+}
+
+.desktop-card .card:hover {
+    background-color: #00B1EB;
+    transition: ease 0.10;
+}
+
+.monitor-card .card:hover {
+    background-color: #63BCBE;
+    transition: ease 0.10;
+}
+
+.acessorios-card .card:hover {
+    background-color: #9CAFB9;
+    transition: ease 0.10;
+}
+
+.card img {
+    width: 12vw;
+    height: auto;
+}
+
+.notebook-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.desktop-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.monitor-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.acessorios-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.monitor-card .card img {
+    width: 15vw;
+    height: auto;
+}
+
+.scroll-button {
+    width: auto;
+    height: auto;
+    position: fixed;
+    right: 5rem;
+    bottom: 5rem;
+    cursor: pointer;
+}
+
+.scroll-button h1 {
+    font-size: 1.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.scroll-seta {
+    width: 5.5rem;
+    height: 5.5rem;
+}
+
+.information {
+    color: #fff;
+}
+
+.information-p {
+    padding-bottom: 1vw;
+}
+
+.information p p {
+    padding-bottom: 5vw;
+}
+
+h3 {
+    padding: 5vh 0vw 2vh 0vh;
+    text-transform: uppercase;
+}
