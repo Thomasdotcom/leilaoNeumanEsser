@@ -40,6 +40,17 @@ footer {
     font-size: 1rem;
 }
 
+.frame {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+iframe {
+    align-items: center;
+    justify-items: center;
+}
+
 .header-logo {
     height: 10rem;
     width: auto;
@@ -121,6 +132,21 @@ header .nav_informacoes {
 
 header .nav_informacoes:hover {
     border-bottom: 7px solid #D83768;
+    color: #777777;
+}
+
+header .nav_resultado {
+    border-bottom: 5px solid #6d696a;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+header .nav_resultado {
+    text-decoration: none;
+}
+
+header .nav_resultado:hover {
+    border-bottom: 7px solid #6d696a;
     color: #777777;
 }
 
